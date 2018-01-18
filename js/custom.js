@@ -5,8 +5,8 @@ jQuery(document).ready(function( $ ) {
     $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
   });
 
-  // Hero rotating texts
-  $("#hero .rotating").Morphext({
+  // py rotating texts
+  $("#py .rotating").Morphext({
     animation: "flipInX",
     separator: ",",
     speed: 3000
